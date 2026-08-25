@@ -1,4 +1,4 @@
-var CACHE_NAME = 'dcard-luana-saraiva-v01-01';
+var CACHE_NAME = 'dcard-luana-saraiva-v01-02';
 var urlsToCache = [
 	'./',
 	'./index.html',
@@ -48,7 +48,8 @@ var urlsToCache = [
 	'./imgs/luana-saraiva-logo-03-V03.png',
 	'./imgs/luana-saraiva-qr-code.png',
 	'./imgs/luana-saraiva-video-thumb-01.png',
-	'./imgs/mauricio-jun-ti-v02.png'
+	'./imgs/mauricio-jun-ti-v02.png',
+	'./imgs/luana-saraiva-video-01.mp4'
 ];
 self.addEventListener('install', (event) => {
 	event.waitUntil( // Ensures the service worker doesn't finish installing until all files are cached
