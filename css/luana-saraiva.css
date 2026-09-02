@@ -1859,7 +1859,8 @@ iframe[id^='twitter-widget-'] {
     display: block;
     width: 100%;
     height: auto;
-    max-height: 75vh;
+    /*max-height: 75vh;*/
+    max-height: 60vh;
     object-fit: contain;
     background: #0a0a0a;
 }
