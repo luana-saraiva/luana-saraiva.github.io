@@ -2,13 +2,13 @@
 <html lang="pt-br">
 <head>
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4JN63863Q0"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-551622769"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
-	gtag('config', 'G-4JN63863Q0');
+	gtag('config', 'G-551622769');
 	</script>
 
 	<!-- Google Tag Manager -->
@@ -2790,7 +2790,7 @@
 			-webkit-background-clip: text !important;
 			-webkit-text-fill-color: transparent !important;
 			background-clip: text !important;
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
+			/*font-size: clamp(1.5rem, 5vw, 2.5rem) !important;*/
 			transition: all 0.3s ease !important;
 		}
 		.nav-icons a:hover {
@@ -2916,8 +2916,10 @@
 			display: inline-flex !important;
 			align-items: center !important;
 			justify-content: center !important;
+			/*
 			width: clamp(2.851rem, 10vw, 4rem) !important;
 			height: clamp(2.851rem, 10vw, 4rem) !important;
+			*/
 			border-radius: 50% !important;
 			/*background: rgba(56, 14, 15, 0.3) !important;*/
 			background-color: rgba(40, 12, 9, 0.8) !important;
@@ -2973,8 +2975,10 @@
 			display: inline-flex !important;
 			align-items: center !important;
 			justify-content: center !important;
+			/*
 			width: clamp(2.851rem, 10vw, 4rem) !important;
 			height: clamp(2.851rem, 10vw, 4rem) !important;
+			*/
 			border-radius: 50% !important;
 			/*background: rgba(56, 14, 15, 0.3) !important;*/
 			background-color: rgba(40, 12, 9, 0.8) !important;
@@ -3007,9 +3011,8 @@
 			background-clip: text !important;
 			*/
 			/*background-image: linear-gradient(145deg, #e9b56a, #a36415) !important;*/
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
+			/*font-size: clamp(1.5rem, 5vw, 2.5rem) !important;*/
 			color: rgba(40, 12, 9, 0.8) !important;
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
 		}
 		.social-btn::before:hover {
 			border-color: var(--ruby-glow);
@@ -3035,8 +3038,10 @@
 			display: inline-flex !important;
 			align-items: center !important;
 			justify-content: center !important;
+			/*
 			width: clamp(2.851rem, 10vw, 4rem) !important;
 			height: clamp(2.851rem, 10vw, 4rem) !important;
+			*/
 			border-radius: 50% !important;
 			background: rgba(56, 14, 15, 0.3) !important;
 			background-clip: padding-box !important;
@@ -3067,7 +3072,7 @@
 			-webkit-text-fill-color: transparent !important;
 			background-clip: text !important;
 			*/
-			font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
+			/*font-size: clamp(1.5rem, 5vw, 2.5rem) !important;*/
 			color: rgba(40, 12, 9, 0.8) !important;
 		}
 		.share-menu .share-item a:hover {
@@ -3291,8 +3296,8 @@
 		}
 		.mj-highlight-item i {
 			color: var(--gold-primary);
-			font-size: 1.6rem;
-			width: 2.2rem;
+			font-size: 1.6em;
+			width: 1.6em;
 			text-align: center;
 			filter: drop-shadow(0 0 4px rgba(212,175,55,0.2));
 			flex-shrink: 0;
@@ -4276,6 +4281,21 @@
 		</div>
 	</div>
 
+	<!-- ===== POPUP INICIAL (uma vez a cada 24h) ===== -->
+	<div id="popup-overlay" class="popup-overlay">
+		<div id="popup-content" class="popup-content">
+			<span id="popup-close" class="popup-close">&times;</span>
+			<img src="https://uploads.diariodopara.com.br/imagens/2026/08/Luana-Saraiva-Rio-Grande-do-Norte-100-cm-Massagista-1320x880.jpeg" alt="Conteúdo exclusivo" loading="lazy">
+			<div id="popup-caption" class="popup-caption">
+				<strong>🔥 Luana Saraiva no Bate Papo com Mikael!</strong><br/>
+				Terça, 08/09, 17h – live imperdível. Empresária, massagista, criadora de conteúdo e <strong>candidata a Miss Bumbum 2026</strong>.<br/>
+				<strong>Quer ficar por dentro?</strong> É aqui que você não perde nenhum detalhe! 💛
+				<!-- a href="https://www.instagram.com/p/DcttAf6R2YO/" class="popup-link" target="_blank" title="Início: Popup">Clique aqui para ver a Live!</a -->
+			</div>
+		</div>
+	</div>
+	<!-- ===== FIM POPUP ===== -->
+
     <script>
         const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
@@ -4303,7 +4323,7 @@
 							<div class="contact-btn"><i class="fa-brands fa-whatsapp"></i></div>
 							<span class="contact-label">WhatsApp</span>
 						</a>
-						<a href="https://drive.usercontent.google.com/u/0/uc?id=19Ry0yEZJWkOIg6QB5J37hvz-tSBVljkQ&export=download" class="contact-item" title="Salvar - Contato">
+						<a href="./files/Luana Saraiva.vcf" class="contact-item" title="Salvar - Contato">
 							<div class="contact-btn"><i class="fa-solid fa-address-card"></i></div>
 							<span class="contact-label">Salvar</span>
 						</a>
@@ -7740,7 +7760,7 @@
 		// ===== FUNÇÕES PARA A BARRA DE AÇÕES =====
 		function baixarVCard() {
 			// Se você tiver um arquivo .vcf hospedado
-			window.open("./imgs/luana-saraiva-contato.vcf", "_blank");
+			window.open("./files/Luana Saraiva.vcf", "_blank");
 			// Ou, se preferir, abrir o link de salvar que já existe:
 			// window.open('https://drive.usercontent.google.com/u/0/uc?id=SEU_ID&export=download', '_blank');
 			sendToAnalytics02("Salvar Contato", "Ação Feed", "Card Page");
@@ -7900,6 +7920,107 @@
 
 			// Expõe a função globalmente para uso manual
 			window.processTwitterEmbeds = processTwitterEmbeds;
+		})();
+	</script>
+	<script>
+		// ============================================================
+		// CONTROLE DA POPUP — APARECE UMA VEZ A CADA 24h
+		// SOMENTE NO CARREGAMENTO INICIAL DA PÁGINA INICIAL (FACE-FRONT)
+		// ============================================================
+		(function() {
+			'use strict';
+
+			const popup = document.getElementById('popup-overlay');
+			const closeBtn = document.getElementById('popup-close');
+			const STORAGE_KEY = 'luana_popup_last_shown';
+
+			// Funções de controle da popup
+			function showPopup() {
+				if (popup) {
+					popup.classList.add('active');
+					try {
+						localStorage.setItem(STORAGE_KEY, Date.now().toString());
+					} catch (e) {
+						// localStorage indisponível
+					}
+				}
+			}
+
+			function hidePopup() {
+				if (popup) popup.classList.remove('active');
+			}
+
+			// Verifica se já passaram 24h desde a última exibição
+			function canShowPopup() {
+				try {
+					const lastShown = localStorage.getItem(STORAGE_KEY);
+					if (!lastShown) return true;
+					const lastTime = parseInt(lastShown, 10);
+					if (isNaN(lastTime)) return true;
+					const now = Date.now();
+					const oneDayMs = 24 * 60 * 60 * 1000; // 86400000
+					return (now - lastTime) >= oneDayMs;
+				} catch (e) {
+					return true; // em caso de erro, exibe
+				}
+			}
+
+			// Fechar com o X
+			if (closeBtn) {
+				closeBtn.addEventListener('click', function(e) {
+					e.stopPropagation();
+					hidePopup();
+				});
+			}
+
+			// Fechar ao clicar no overlay (fundo)
+			if (popup) {
+				popup.addEventListener('click', function(e) {
+					if (e.target === this) {
+						hidePopup();
+					}
+				});
+			}
+
+			// ============================================================
+			// LÓGICA PRINCIPAL: exibir APENAS no carregamento inicial
+			// se for INICIO, face-front visível e 24h já passaram.
+			// ============================================================
+			function tryShowPopupOnLoad() {
+				// 1. Verifica se a seção atual é INICIO
+				const params = new URLSearchParams(window.location.search);
+				let section = params.get('section') || 'INICIO';
+				// Se a seção não existir no sectionsData, assume INICIO
+				if (window.sectionsData && !window.sectionsData[section]) {
+					section = 'INICIO';
+				}
+
+				// 2. Verifica se a face-front está visível (cartão NÃO está virado)
+				const card = document.getElementById('card');
+				const isFlipped = card ? card.classList.contains('is-flipped') : false;
+
+				// 3. Verifica a condição de 24h
+				const canShow = canShowPopup();
+
+				// 4. Se todas as condições forem atendidas, exibe a popup
+				//if (section === 'INICIO' && !isFlipped && canShow) {
+				if (section === 'INICIO' && !isFlipped) {
+					showPopup();
+				} else {
+					hidePopup(); // Garante que não fique visível indevidamente
+				}
+			}
+
+			// Executa quando o DOM estiver completamente carregado
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', tryShowPopupOnLoad);
+			} else {
+				tryShowPopupOnLoad();
+			}
+
+			// (Opcional) Se houver recarregamento da página com a face virada,
+			// a popup não será exibida, conforme regra.
+
 		})();
 	</script>
 </body>
