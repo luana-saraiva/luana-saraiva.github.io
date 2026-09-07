@@ -1,4 +1,4 @@
-var CACHE_NAME = 'dcard-luana-saraiva-v01-04';
+var CACHE_NAME = 'dcard-luana-saraiva-v01-05';
 var urlsToCache = [
 	'./',
 	'./index.html',
@@ -48,6 +48,8 @@ var urlsToCache = [
 	'./imgs/luana-saraiva-logo-03-V03.png',
 	'./imgs/luana-saraiva-qr-code.png',
 	'./imgs/luana-saraiva-video-thumb-01.png',
+	'./imgs/luana-saraiva-fotos-previa-03.jpeg',
+	'./imgs/luana-saraiva-foto-de-perfil-xvideos.png',
 	'./imgs/mauricio-jun-ti-v02.png',
 	'./imgs/luana-saraiva-video-01.mp4'
 ];
