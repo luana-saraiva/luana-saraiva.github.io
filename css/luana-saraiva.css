@@ -729,6 +729,10 @@ ul.checked-list li::marker {
     box-shadow: var(--rg-shadow), var(--rg-glow);
 }
 
+.btn-form-inline {
+    display:inline-block; color:#000; text-decoration:none; font-weight:bold;
+}
+
 .btn-form-contato i {
     color: var(--rg-espresso) !important;
 }
