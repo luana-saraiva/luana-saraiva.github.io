@@ -1,4 +1,4 @@
-var CACHE_NAME = 'dcard-luana-saraiva-v01-10';
+var CACHE_NAME = 'dcard-luana-saraiva-v01-11';
 var urlsToCache = [
 	'./',
 	'./index.html',
